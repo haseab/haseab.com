@@ -1,13 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { PostHogProvider } from "posthog-js/react";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const options = {
+  api_host: process.env.REACT_APP_PUBLIC_POSTHOG_HOST,
+  session_recording: {
+    maskAllInputs: false,
+  },
+};
+
 root.render(
   <React.StrictMode>
-    <App />
+    <PostHogProvider
+      apiKey={process.env.REACT_APP_POSTHOG_KEY}
+      options={options}
+    >
+      <App />
+    </PostHogProvider>
   </React.StrictMode>
 );
 
