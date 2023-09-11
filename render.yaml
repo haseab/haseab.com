@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: haseab.com
+    env: node
+    buildCommand: yarn build
+    startCommand: yarn start
+    nodeVersion: 16.0.0
