@@ -12,6 +12,8 @@ function RedirectWithUtm(props) {
   let navigate = useNavigate();
 
   useEffect(() => {
+    console.log("RedirectWithUtm useEffect triggered");
+
     let utmSource = source;
     let utmMedium = medium;
     let utmCampaign = campaign;
