@@ -20,7 +20,7 @@ function RedirectWithUtm(props) {
     navigate(
       `/?utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}`
     );
-  }, [navigate]);
+  }, [campaign, medium, navigate, source]);
 
   return null;
 }
