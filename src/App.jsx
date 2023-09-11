@@ -24,7 +24,7 @@ function App() {
           <Route path="/goal" element={<Goal />} />
           <Route path="/mastery" element={<Mastery />} />
           <Route path="/i" element={<RedirectWithUtm source="instagram" />} />
-          <Route path="/t" element={<RedirectWithUtm source="twitter" />} />
+          <Route path="/x" element={<RedirectWithUtm source="twitter" />} />
         </Routes>
       </header>
     </Router>
