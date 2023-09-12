@@ -1,9 +1,11 @@
+import posthog from "posthog-js";
 import { PostHogProvider } from "posthog-js/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const options = {
@@ -13,12 +15,11 @@ const options = {
   },
 };
 
+posthog.init(process.env.REACT_APP_PUBLIC_POSTHOG_KEY, options);
+
 root.render(
   <React.StrictMode>
-    <PostHogProvider
-      apiKey={process.env.REACT_APP_POSTHOG_KEY}
-      options={options}
-    >
+    <PostHogProvider>
       <App />
     </PostHogProvider>
   </React.StrictMode>
