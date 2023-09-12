@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Goal = () => {
   return (
-    <div>
+    <div className="max-w-3xl rounded-lg p-12">
       <p className="text-3xl"> 💎 Seeking Clarity</p>
       <br></br>
       <p className="prose-xl">The root cause behind all your suffering...</p>

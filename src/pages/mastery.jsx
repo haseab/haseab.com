@@ -2,7 +2,7 @@ import React from "react";
 
 const Mastery = () => {
   return (
-    <div className="max-w-3xl rounded-lg p-8">
+    <div className="max-w-3xl rounded-lg p-12">
       <p className="text-5xl text-center"> 🧘 Mastery</p>
       <br></br>
       <p className="prose-xl">
