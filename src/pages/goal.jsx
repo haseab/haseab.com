@@ -37,9 +37,9 @@ const Goal = () => {
       <br></br>
       <p className="prose-xl">And that is why you suffer.</p>
       <br></br>
-      <div class="relative flex py-5 items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
-        <div class="flex-grow border-t border-gray-400"></div>
+      <div className="relative flex py-5 items-center">
+        <div className="flex-grow border-t border-gray-400"></div>
+        <div className="flex-grow border-t border-gray-400"></div>
       </div>
       <br></br>
 

@@ -1,6 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import RedirectWithUtm from "./components/RedirectWithUtm";
 import Directory from "./pages/directory";
 import Goal from "./pages/goal";
 import Home from "./pages/home";
@@ -23,8 +22,6 @@ function App() {
           <Route path="/directory" element={<Directory />} />
           <Route path="/goal" element={<Goal />} />
           <Route path="/mastery" element={<Mastery />} />
-          <Route path="/i" element={<RedirectWithUtm source="instagram" />} />
-          <Route path="/x" element={<RedirectWithUtm source="twitter" />} />
         </Routes>
       </header>
     </Router>
