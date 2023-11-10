@@ -22,8 +22,7 @@ const Goal = () => {
       <br></br>
       <p className="prose-xl">
         <strong>
-          But are you willing to bet your mom&apos;s life that you&apos;re
-          right?
+          But are you willing to bet everything that you&apos;re right?
         </strong>
       </p>
       <br></br>
