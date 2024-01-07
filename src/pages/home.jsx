@@ -16,17 +16,20 @@ const Home = () => {
         </div>
         <p className="pt-2 text-2xl">🤙 My name is Haseab (Ha - seeb). </p>
         <p className="pt-2 text-base">
-          <strong>Currently </strong>: 📍 indiehacking in SF
+          <strong>Currently </strong>: 📍 Organizing My Life in Toronto
         </p>
         <p>
           <strong>Building:</strong>{" "}
-          <a className="text-blue-400" href="https://automatic.chat">
-            automatic.chat
-          </a>{" "}
-          &{" "}
-          <a className="text-blue-400" href="llm.report">
-            llm.report
+          <a className="text-blue-400" href="https://assumptions.app">
+            assumptions.app
           </a>
+          {/* <a className="text-blue-400" href="https://automatic.chat">
+            automatic.chat
+            </a>{" "}
+            &{" "}
+            <a className="text-blue-400" href="llm.report">
+            llm.report
+          </a> */}
         </p>
         <br></br>
         <p>
@@ -35,6 +38,8 @@ const Home = () => {
             Start Here
           </Link>
         </p>
+        <br></br>
+        <p>Last Updated: Jan 7 2024</p>
       </div>
     </div>
   );
