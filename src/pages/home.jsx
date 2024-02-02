@@ -8,7 +8,7 @@ const Home = () => {
       <div className="items-center">
         <div className="flex justify-center">
           <img
-            src="https://pbs.twimg.com/profile_images/1587840259764649984/BJTh4xl9_400x400.jpg"
+            src="https://pbs.twimg.com/profile_images/1750678675798855680/2sqTuFi-_400x400.jpg"
             className="rounded-full"
             alt="logo"
             width="200vh"
