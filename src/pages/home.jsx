@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <p className="pt-2 text-2xl">🤙 My name is Haseab (Ha - seeb). </p>
         <p className="pt-2 text-base">
-          <strong>Currently </strong>: 📍 Grinding In Toronto
+          <strong>Currently </strong>: 📍 Back in SF!
         </p>
         <p>
           <strong>Building:</strong>{" "}
@@ -39,7 +39,7 @@ const Home = () => {
           </Link>
         </p>
         <br></br>
-        <p>Last Updated: May 1 2024</p>
+        <p>Last Updated: May 15 2024</p>
       </div>
     </div>
   );
