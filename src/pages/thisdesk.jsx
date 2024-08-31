@@ -11,7 +11,7 @@ export const ThisDesk = () => {
         alt="desk"
       />
       <br></br>
-      <div className="space-y-4 prose-xl">
+      <div className="space-y-4 prose-lg">
         <p>music blaring, keyboard clacking, trackpad swiping.</p>
         <p>littered wrappers, chicken tenders, scooter glasses</p>
         <p>cold breeze, warm machine, bright screen</p>
