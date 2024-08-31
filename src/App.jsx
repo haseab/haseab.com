@@ -4,6 +4,7 @@ import Directory from "./pages/directory";
 import Goal from "./pages/goal";
 import Home from "./pages/home";
 import Mastery from "./pages/mastery";
+import ThisDesk from "./pages/thisdesk";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/directory" element={<Directory />} />
           <Route path="/goal" element={<Goal />} />
           <Route path="/mastery" element={<Mastery />} />
+          <Route path="/thisdesk" element={<ThisDesk />} />
         </Routes>
       </header>
     </Router>
