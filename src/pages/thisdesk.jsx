@@ -3,7 +3,7 @@ import React from "react";
 export const ThisDesk = () => {
   return (
     <div className="max-w-3xl rounded-lg p-12">
-      <p className="text-5xl text-center">This desk</p>
+      <p className="text-5xl text-center">this desk</p>
       <br></br>
       <img
         className="mx-auto"
