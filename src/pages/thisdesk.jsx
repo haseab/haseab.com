@@ -22,7 +22,7 @@ export const ThisDesk = () => {
         <p>headphones in, world out </p>
         <p>eyes ahead, no doubt </p>
         <br></br>
-        <p>that is the spirit this desk.</p>
+        <p>that is the spirit of this desk.</p>
         <p>-h</p>
       </div>
     </div>
