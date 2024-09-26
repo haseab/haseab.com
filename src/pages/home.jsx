@@ -14,7 +14,7 @@ const Home = () => {
             width="200vh"
           />
         </div>
-        <p className="pt-2 text-2xl">🤙 My name is Haseab (Ha - seeb). </p>
+        <p className="pt-2 text-2xl">My name is Haseab (Ha - seeb). </p>
         <p className="pt-2 text-base">
           <strong>Currently: </strong>📍 Toronto
         </p>
