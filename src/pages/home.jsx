@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <p className="pt-2 text-2xl">My name is Haseab (Ha - seeb). </p>
         <p className="pt-2 text-base">
-          <strong>Currently: </strong>📍 Toronto
+          <strong>Currently In: </strong>📍 Toronto
         </p>
         <p>
           <strong>Building:</strong>{" "}
@@ -25,7 +25,7 @@ const Home = () => {
           </a>
         </p>
         <p>
-          <strong>See me live on:</strong>{" "}
+          <strong>Live on:</strong>{" "}
           <a className="text-blue-400" href="https://timetracking.live">
             timetracking.live
           </a>
@@ -38,7 +38,7 @@ const Home = () => {
           </Link>
         </p>
         <br></br>
-        <p>Last Updated: Sep 4 2024</p>
+        <p>Last Updated: Nov 14 2024</p>
       </div>
     </div>
   );
