@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-function RedirectWithUtm(props) {
+function RedirectWithUtm(props: any) {
   let { source, medium, campaign } = props;
   if (!medium) {
     medium = "mobile/desktop";

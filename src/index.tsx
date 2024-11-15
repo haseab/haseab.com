@@ -6,16 +6,22 @@ import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const REACT_APP_PUBLIC_POSTHOG_HOST = "https://app.posthog.com";
+const REACT_APP_PUBLIC_POSTHOG_KEY =
+  "phc_YuclX6wflAjsUfP2AL8wraPKVnTBPQ26guc1BUynyTH";
+
+const root = ReactDOM.createRoot(
+  document.getElementById("root") || document.createElement("div")
+);
 
 const options = {
-  api_host: process.env.REACT_APP_PUBLIC_POSTHOG_HOST,
+  api_host: REACT_APP_PUBLIC_POSTHOG_HOST,
   session_recording: {
     maskAllInputs: false,
   },
 };
 
-posthog.init(process.env.REACT_APP_PUBLIC_POSTHOG_KEY, options);
+posthog.init(REACT_APP_PUBLIC_POSTHOG_KEY, options);
 
 root.render(
   <React.StrictMode>

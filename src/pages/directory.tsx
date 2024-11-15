@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { SocialIcon } from "react-social-icons/component";
 import "react-social-icons/instagram";
 import "react-social-icons/linkedin";
 import "react-social-icons/mailto";
@@ -11,7 +9,6 @@ const Directory = () => {
     <div className="max-w-3xl rounded-lg p-8">
       <Link
         to="/goal"
-        href="#"
         className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex justify-center items-center">
@@ -29,7 +26,6 @@ const Directory = () => {
       <br></br>
       <Link
         to="https://haseab.notion.site/5fb0df7bacd8465b92cc1955efd54517?v=dec6459a0113402ca37114e299277b66"
-        href="#"
         className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex justify-center items-center">
@@ -49,7 +45,6 @@ const Directory = () => {
       <br></br>
       <Link
         to="https://www.youtube.com/@haseab"
-        href="#"
         className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex justify-center items-center">
@@ -69,7 +64,6 @@ const Directory = () => {
       <br></br>
       <Link
         to="https://haseab.notion.site/haseab/29b9004090e44b40a0f0b8dc4cc31fa6?v=f8c366baa3d34f3db58bbded0fe55cab"
-        href="#"
         className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex justify-center items-center">
@@ -89,7 +83,6 @@ const Directory = () => {
       <br></br>
       <Link
         to="https://haseab.medium.com/"
-        href="#"
         className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex justify-center items-center">
@@ -108,7 +101,7 @@ const Directory = () => {
       </Link>
 
       <br></br>
-      <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      {/* <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Contact
         </h5>
@@ -117,7 +110,7 @@ const Directory = () => {
         <SocialIcon className="m-1" url="https://linkedin.com/in/haseab" />
         <SocialIcon className="m-1" url="https://instagram.com/haseabamin" />
         <SocialIcon className="m-1" url="mailto:hello@haseab.com" />
-      </div>
+      </div> */}
     </div>
   );
 };

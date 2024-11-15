@@ -16,7 +16,7 @@ function App() {
             element={
               <>
                 <Home />
-                <Directory />
+                {/* <Directory /> */}
               </>
             }
           />
