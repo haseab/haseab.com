@@ -1,6 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import Directory from "./pages/directory";
 import Goal from "./pages/goal";
 import Home from "./pages/home";
 import Mastery from "./pages/mastery";
@@ -20,7 +19,7 @@ function App() {
               </>
             }
           />
-          <Route path="/directory" element={<Directory />} />
+          {/* <Route path="/directory" element={<Directory />} /> */}
           <Route path="/goal" element={<Goal />} />
           <Route path="/mastery" element={<Mastery />} />
           <Route path="/thisdesk" element={<ThisDesk />} />
