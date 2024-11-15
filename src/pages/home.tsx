@@ -15,7 +15,7 @@ const Home = () => {
         <div className="items-center">
           <div className="flex justify-center">
             <img
-              src="https://pbs.twimg.com/profile_images/1750678675798855680/2sqTuFi-_400x400.jpg"
+              src="https://pub-7712ec77fabb4a6d996c607b226d98f0.r2.dev/smiledp.png"
               className="rounded-full"
               alt="logo"
               width="200vh"
