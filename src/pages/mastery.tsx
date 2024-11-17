@@ -1,8 +1,13 @@
-import React from "react";
+//create useEffect to reset the scroll
+import { useEffect } from "react";
 
 const Mastery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="max-w-3xl rounded-lg p-12">
+    <div className="flex flex-col justify-start max-w-4xl rounded-lg p-16">
       <p className="text-5xl text-center"> 🧘 Mastery</p>
       <br></br>
       <p className="prose-xl">
@@ -11,13 +16,13 @@ const Mastery = () => {
       <br></br>
       <p className="prose-xl">
         <strong>
-          Goal is to master the 5 pillars of life. No one in documented history
-          has done it.
+          I want to master the 5 pillars of human excellence. No one in
+          documented history seems to have done it and I will.
         </strong>
       </p>
       <br></br>
       <p className="prose-xl">
-        <strong>Pillar #1: No Self-Conflict </strong>:
+        <strong>Pillar #1: Low Self-Conflict </strong>:
         <div>
           Self-conflict is just another word for suffering. Everyone has
           problems, thus everyone suffers. Mastering this pillar means that
@@ -78,12 +83,7 @@ const Mastery = () => {
       <br></br>
       <p className="prose-xl">
         No one in documented history has been able to master all 5 pillars. And
-        I 100% will do it.
-      </p>
-      <br></br>
-      <p className="prose-sm">
-        If you made it this far, thanks for reading. If anything that I wrote
-        resonates with you, reach out to me.
+        I 100% think it&apos;s possible for me to do it.
       </p>
       <br></br>
 

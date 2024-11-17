@@ -3,11 +3,34 @@ import { Link } from "react-router-dom";
 const Goal = () => {
   return (
     <div className="max-w-3xl rounded-lg p-12">
-      <p className="text-3xl"> 💎 Seeking Clarity</p>
+      <p className="text-3xl"> 💎 About Me</p>
       <br></br>
-      <p className="prose-lg">The root cause behind all suffering...</p>
+      <p className="prose-lg">What is your ultimate goal in life?</p>
+      <br></br>
+      <p className="prose-lg">Is it to maximize happiness? to attain peace?</p>
       <br></br>
       <p className="prose-lg">
+        If you could push a button to forever be in a peaceful and happy state,
+      </p>
+      <br></br>
+      <p className="prose-lg">would you push it?</p>
+      <br></br>
+      <p className="prose-lg">
+        <strong>what if the catch is:</strong> you have to live in a farm for
+        the rest of your life?
+      </p>
+      <br></br>
+      <p className="prose-lg">
+        what if the catch is: you have to give up all of your memories?
+      </p>
+      <br></br>
+      <p className="prose-lg">Be honest with yourself:</p>
+      <br></br>
+      <p className="prose-lg">
+        <strong>Do you even know what you want in life?</strong>
+      </p>
+      <br></br>
+      {/* <p className="prose-lg">
         is due to{" "}
         <a
           className="text-blue-500"
@@ -15,26 +38,8 @@ const Goal = () => {
         >
           flawed assumptions.
         </a>{" "}
-      </p>
-      <br></br>
-      <p className="prose-lg">You&apos;re so confident about how you work.</p>
-      <br></br>
-      <p className="prose-lg">
-        <strong>
-          But are you willing to bet everything that you&apos;re right?
-        </strong>
-      </p>
-      <br></br>
-      <p className="prose-lg">
-        If you&apos;re not willing, then are you really that confident?
-      </p>
-      <br></br>
-      <p className="prose-lg">
-        Your lack of rigor stems from a flawed assumption.
-      </p>
-      <br></br>
-      <p className="prose-lg">And that is why you suffer.</p>
-      <br></br>
+      </p> */}
+      <p className="prose-lg">I do.</p>
       <div className="relative flex py-5 items-center">
         <div className="flex-grow border-t border-gray-400"></div>
         <div className="flex-grow border-t border-gray-400"></div>

@@ -3,7 +3,9 @@ import "./App.css";
 import Goal from "./pages/goal";
 import Home from "./pages/home";
 import Mastery from "./pages/mastery";
+import { Problems } from "./pages/problems";
 import ThisDesk from "./pages/thisdesk";
+import { Traits } from "./pages/traits";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/goal" element={<Goal />} />
           <Route path="/mastery" element={<Mastery />} />
           <Route path="/thisdesk" element={<ThisDesk />} />
+          <Route path="/problems" element={<Problems />} />
+          <Route path="/traits" element={<Traits />} />
         </Routes>
       </header>
     </Router>
