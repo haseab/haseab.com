@@ -6,7 +6,7 @@ import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-const REACT_APP_PUBLIC_POSTHOG_HOST = "https://app.posthog.com";
+const REACT_APP_PUBLIC_POSTHOG_HOST = "https://peaker.haseab.workers.dev";
 const REACT_APP_PUBLIC_POSTHOG_KEY =
   "phc_YuclX6wflAjsUfP2AL8wraPKVnTBPQ26guc1BUynyTH";
 
@@ -19,6 +19,9 @@ const options = {
   session_recording: {
     maskAllInputs: false,
   },
+  capture_pageview: true,
+  capture_pageleave: true,
+  autocapture: true,
 };
 
 posthog.init(REACT_APP_PUBLIC_POSTHOG_KEY, options);
