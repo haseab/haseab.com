@@ -152,7 +152,7 @@ const Home = () => {
               key={index}
               to={card.to}
               target={card.target}
-              className="max-w-sm block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+              className="max-w-sm block p-6 bg-gray-800 border border-gray-700 rounded-lg shadow hover:bg-gray-700"
             >
               <div className="flex justify-center items-center h-[120px] overflow-hidden mb-2 rounded-lg">
                 <img
