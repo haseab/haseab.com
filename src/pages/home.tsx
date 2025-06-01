@@ -98,19 +98,19 @@ const Home = () => {
               width="200vh"
             />
           </div>
-          <p className="pt-2 text-2xl">My name is Haseab (Ha - seeb). </p>
-          <p className="pt-2 text-base">
-            <strong>Currently In: </strong>📍 Toronto
+          <p className="pt-4 text-2xl">My name is Haseab (Ha - seeb). </p>
+          <p className="pt-8 text-base">
+            <strong>Currently In: </strong>📍 San Francisco
           </p>
           <p>
             <strong>Building:</strong>{" "}
             <a
               className="text-blue-400"
-              href="https://automatic.chat"
+              href="https://assumptions.app"
               target="_blank"
               rel="noreferrer"
             >
-              automatic.chat
+              assumptions.app
             </a>
           </p>
           <p>
@@ -138,7 +138,7 @@ const Home = () => {
           </p>
           <br />
           <p>
-            <strong>Last Updated:</strong> Nov 14, 2024
+            <strong>Last Updated:</strong> Jun 1, 2025
           </p>
         </div>
       </div>
