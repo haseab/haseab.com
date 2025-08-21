@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 const Goal = () => {
   return (
     <div className="max-w-3xl rounded-lg p-12">
-      <p className="text-3xl"> 💎 About Me</p>
+      {/* <p className="text-3xl"> 💎 About Me</p>
       <br></br>
       <p className="prose-lg">What is your ultimate goal in life?</p>
       <br></br>
@@ -30,7 +28,7 @@ const Goal = () => {
         <strong>Do you even know what you want in life?</strong>
       </p>
       <br></br>
-      {/* <p className="prose-lg">
+      <p className="prose-lg">
         is due to{" "}
         <a
           className="text-blue-500"
@@ -38,7 +36,7 @@ const Goal = () => {
         >
           flawed assumptions.
         </a>{" "}
-      </p> */}
+      </p>
       <p className="prose-lg">I do.</p>
       <div className="relative flex py-5 items-center">
         <div className="flex-grow border-t border-gray-400"></div>
@@ -51,7 +49,7 @@ const Goal = () => {
         <Link className="text-blue-500" to="/mastery">
           mastering the 5 pillars of life
         </Link>
-      </p>
+      </p>*/}
     </div>
   );
 };

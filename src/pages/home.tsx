@@ -6,7 +6,7 @@ const Home = () => {
 
   const cards = [
     {
-      title: "💎 Life Goal",
+      title: "Goals",
       description: "i have a goal to master the 5 pillars of human excellence",
       to: "/mastery",
       imgSrc:
@@ -59,7 +59,7 @@ const Home = () => {
       target: "_blank",
     },
     {
-      title: "Organization Systems",
+      title: "Organizational Systems",
       description: "a.k.a ways in which I've stayed organized",
       to: "https://haseab.notion.site/haseab/29b9004090e44b40a0f0b8dc4cc31fa6?v=f8c366baa3d34f3db58bbded0fe55cab",
       imgSrc:
@@ -87,33 +87,63 @@ const Home = () => {
   ];
 
   return (
-    <>
-      <div className="flex min-h-screen w-full items-center justify-center text-center">
+    <div className="px-16 sm:px-8 lg:px-16">
+      <div className="flex min-h-screen w-full items-center justify-center text-center max-w-2xl mx-auto">
         <div className="items-center">
           <div className="flex justify-center">
             <img
-              src="https://pub-7712ec77fabb4a6d996c607b226d98f0.r2.dev/smiledp.png"
-              className="rounded-full"
+              // src="https://pub-7712ec77fabb4a6d996c607b226d98f0.r2.dev/smiledp.png"
+              // src="https://pub-7712ec77fabb4a6d996c607b226d98f0.r2.dev/dp2025.png"
+              src="https://pub-7712ec77fabb4a6d996c607b226d98f0.r2.dev/a8353938e17f7aed676c9b13f99518b29dea2ea6fffd4ee5ffd84971f5f7370f.png"
+              className="rounded-full w-40 h-40 sm:w-48 sm:h-48 md:w-52 md:h-52 object-cover"
               alt="logo"
-              width="200vh"
             />
           </div>
-          <p className="pt-4 text-2xl">My name is Haseab (Ha - seeb). </p>
-          <p className="pt-8 text-base">
-            <strong>Currently In: </strong>📍 San Francisco
+          <p className="pt-4 text-xl sm:text-2xl">That's me! </p>
+          <div className="text-left">
+            <p className="pt-6 sm:pt-8 text-sm sm:text-base">
+              I had this taken 2 weeks ago.
+            </p>
+            <p className="pt-6 sm:pt-8 text-sm sm:text-base">
+              Grinding in the game room at f.inc, where I work out of in SF.
+            </p>
+            <p className="pt-6 sm:pt-8 text-sm sm:text-base">
+              I've been in this room basically all day for the last 3 months.
+            </p>
+            <p className="pt-6 sm:pt-8 text-sm sm:text-base">
+              Trying to be the best smash player here.
+            </p>
+            <span className="pt-6 sm:pt-8 text-sm sm:text-base inline-block">
+              check my progress{" "}
+              <a href="https://f.inc/smash" className="text-blue-400 underline">
+                here
+              </a>
+            </span>
+          </div>
+
+          {/* <p className="pt-8 text-base">
+            <strong>📍</strong> San Francisco
           </p>
           <p>
-            <strong>Building:</strong>{" "}
+            <strong>Current Phase:</strong> Mastering Super Smash Bros.
+          </p> */}
+          {/* <p>
+            <strong>Currently:</strong>{" "} Building
             <a
               className="text-blue-400"
               href="https://assumptions.app"
               target="_blank"
               rel="noreferrer"
             >
-              assumptions.app
+              automatic.chat
             </a>
-          </p>
+          </p> */}
+          <br />
           <p>
+            <strong>Last Updated:</strong> Aug 20, 2025
+          </p>
+          <br />
+          {/* <p>
             <strong>Live on:</strong>{" "}
             <a
               className="text-blue-400"
@@ -123,9 +153,9 @@ const Home = () => {
             >
               timetracking.live
             </a>
-          </p>
+          </p> */}
           <br />
-          <p>
+          {/* <p>
             <strong>Know more: </strong>
             <button
               className="text-purple-300"
@@ -135,16 +165,12 @@ const Home = () => {
             >
               Start Here
             </button>
-          </p>
-          <br />
-          <p>
-            <strong>Last Updated:</strong> Jun 1, 2025
-          </p>
+          </p> */}
         </div>
       </div>
-      <div className="max-w-6xl mx-auto p-8 mb-16">
+      <div className="max-w-6xl mx-auto py-8 mb-16">
         <div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-4"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
           ref={directoryRef}
         >
           {cards.map((card, index) => (
@@ -152,24 +178,26 @@ const Home = () => {
               key={index}
               to={card.to}
               target={card.target}
-              className="max-w-sm block p-6 bg-gray-800 border border-gray-700 rounded-lg shadow hover:bg-gray-700"
+              className="w-full block p-4 sm:p-6 bg-gray-800 border border-gray-700 rounded-lg shadow hover:bg-gray-700"
             >
-              <div className="flex justify-center items-center h-[120px] overflow-hidden mb-2 rounded-lg">
+              <div className="flex justify-center items-center h-[80px] sm:h-[120px] overflow-hidden mb-2 rounded-lg">
                 <img
                   src={card.imgSrc}
                   alt={card.alt}
                   className="mb-2 rounded-t-lg object-cover"
                 />
               </div>
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
+              <h5 className="mb-2 text-lg sm:text-2xl font-bold tracking-tight text-white">
                 {card.title}
               </h5>
-              <p className="font-normal text-gray-400">{card.description}</p>
+              <p className="font-normal text-sm sm:text-base text-gray-400">
+                {card.description}
+              </p>
             </Link>
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

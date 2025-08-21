@@ -8,7 +8,7 @@ const Mastery = () => {
 
   return (
     <div className="flex flex-col justify-start max-w-4xl rounded-lg p-16">
-      <p className="text-5xl text-center"> 🧘 Mastery</p>
+      {/* <p className="text-5xl text-center"> 🧘 Mastery</p>
       <br></br>
       <p className="prose-xl">
         <strong>As of June 5 2023:</strong>
@@ -187,7 +187,7 @@ const Mastery = () => {
             </a>
           </p>
         </div>
-      </p>
+      </p> */}
     </div>
   );
 };
