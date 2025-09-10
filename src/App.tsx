@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
+import { SitemapRoute } from "./components/SitemapRoute";
 import Goal from "./pages/goal";
 import Home from "./pages/home";
 import Mastery from "./pages/mastery";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/thisdesk" element={<ThisDesk />} />
           <Route path="/problems" element={<Problems />} />
           <Route path="/traits" element={<Traits />} />
+          <Route path="/sitemap.xml" element={<SitemapRoute />} />
         </Routes>
       </header>
     </Router>
