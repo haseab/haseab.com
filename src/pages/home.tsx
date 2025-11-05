@@ -11,10 +11,10 @@ const Home = () => {
       to: "/mastery",
       imgSrc:
         "https://pub-7712ec77fabb4a6d996c607b226d98f0.r2.dev/5439d78d1472d0efde047762e8b337c69a0e8f29575cb57b8d9efe286c115aaa.png",
-      alt: "Life Goal",
+      alt: "Goals",
     },
     {
-      title: "Problems I'm Solving",
+      title: "Problems I Tried to Solve",
       description: "including problems I tried to solve",
       to: "/problems",
       imgSrc:
@@ -22,7 +22,7 @@ const Home = () => {
       alt: "Problems I Tried to Solve",
     },
     {
-      title: "Traits That Define Me",
+      title: "Unique Traits I Have",
       description: "some traits that explain my behavior",
       to: "/traits",
       imgSrc:
@@ -59,7 +59,7 @@ const Home = () => {
       target: "_blank",
     },
     {
-      title: "Organizational Systems",
+      title: "Productivity Systems",
       description: "a.k.a ways in which I've stayed organized",
       to: "https://haseab.notion.site/haseab/29b9004090e44b40a0f0b8dc4cc31fa6?v=f8c366baa3d34f3db58bbded0fe55cab",
       imgSrc:
@@ -77,7 +77,7 @@ const Home = () => {
       target: "_blank",
     },
     {
-      title: "Flawed Assumptions",
+      title: "Flawed Life Assumptions",
       description: "assumptions that cause humans to suffer",
       to: "https://haseab.notion.site/Flawed-Life-Assumptions-06e84f1e1a2c4bc4b67355aabd2c36b4",
       imgSrc:
