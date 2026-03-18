@@ -1,5 +1,4 @@
 import posthog from "posthog-js";
-import { PostHogProvider } from "posthog-js/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -28,9 +27,7 @@ posthog.init(REACT_APP_PUBLIC_POSTHOG_KEY, options);
 
 root.render(
   <React.StrictMode>
-    <PostHogProvider>
-      <App />
-    </PostHogProvider>
+    <App />
   </React.StrictMode>
 );
 
